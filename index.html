@@ -1,6 +1,6 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -29,14 +29,21 @@
 
         nav {
             background: #333;
-            padding: 12px;
-            text-align: center;
+            padding: 15px 20px;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
         }
 
         nav a {
             color: white;
             text-decoration: none;
-            margin: 15px;
+            font-size: 16px;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #60a5fa;
         }
 
         section {
@@ -88,6 +95,15 @@
         <p>HTML, CSS, JavaScript, React, Next.js, Java, Python, Git and GitHub.</p>
     </section>
 
+    <section id="projects">
+        <h2>Projects</h2>
+        <p>My web development projects.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Let's connect!</p>
+    </section>
 
 
     <footer>
@@ -95,4 +111,5 @@
     </footer>
 
 </body>
+
 </html>
